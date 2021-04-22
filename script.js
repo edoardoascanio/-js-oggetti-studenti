@@ -1,7 +1,7 @@
 var studente = {
     nome: "Marco",
     cognome: "Rossi",
-    eta : "20"
+    eta: "20"
 }
 
 console.log(nome.cognome.eta)
@@ -12,18 +12,18 @@ var arrayClasse = [
     {
         nome: "Luca",
         cognome: "Bianchi",
-        eta : "20"
+        eta: "22"
     },
 
     {
         nome: "Giovanni",
         cognome: "Verdi",
-        eta : "20"
+        eta: "21"
     },
 
     {
         nome: "Andrea",
         cognome: "Neri",
-        eta : "20"
+        eta: "19"
     }
 ]
