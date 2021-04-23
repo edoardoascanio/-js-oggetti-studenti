@@ -36,8 +36,6 @@ for (var i = 0; i < arrayClasse.length; i++) {
 }
 
 
-
-
 var nuovoStudente = {
     "nome": prompt("Inserisci il tuo nome"),
     "cognome": prompt("Inserisci il tuo cognome"),
