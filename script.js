@@ -8,9 +8,6 @@ for (var key in studente) {
     console.log(key + ":" + studente[key])
 }
 
-console.log(studente["nome"] + " " + studente["cognome"])
-
-
 
 var arrayClasse = [
     {
@@ -48,11 +45,6 @@ var nuovoStudente = {
 }
 
 arrayClasse.push(nuovoStudente)
-
-console.log(arrayClasse[0]["nome"] + " " + arrayClasse[0]["cognome"])
-console.log(arrayClasse[1]["nome"] + " " + arrayClasse[1]["cognome"])
-console.log(arrayClasse[2]["nome"] + " " + arrayClasse[2]["cognome"])
-console.log(nuovoStudente["nome"] + " " + nuovoStudente["cognome"])
 
 console.log(arrayClasse)
 
