@@ -4,6 +4,10 @@ var studente = {
     eta: 20,
 }
 
+for (var key in studente) {
+    console.log(key + ":" + studente[key])
+}
+
 console.log(studente["nome"] + " " + studente["cognome"])
 
 
@@ -27,6 +31,15 @@ var arrayClasse = [
         eta: 19
     }
 ]
+
+for (var i = 0; i < arrayClasse.length; i++) {
+    var alunno = arrayClasse[i];
+
+    console.log("Studente " + (i + 1) + ":Nome = " + alunno.nome + "; Cognome = " + alunno.cognome)
+}
+
+
+
 
 var nuovoStudente = {
     "nome": prompt("Inserisci il tuo nome"),
